@@ -95,7 +95,6 @@ for z in range(200):
 	ua_l = f"Mozilla/5.0 (Linux; Android 8; LG-942V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.2333.609 Mobile Safari/537.36]"
 	ua_v = f"Mozilla/5.0 (Linux; Android 4; Nokia N215) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.2028.183 Mobile Safari/537.36]"
 	ua_v = f"Mozilla/5.0 (Linux; Android 11; Huawei 817) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.2871.682 Mobile Safari/537.36]"
-	ua_s = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; M2012K11AG Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36]"
 	ua_i = f"Dalvik/2.1.0 (Android 13; SM-S918BBuild/TP1A.220624.014.186049.001)[FBAN/MessengerLite;FBAV/138.0.0.2.132;FBPN/com.facebook.mlite;FBLC/en_US;FBBV/241285382;FBCR/Airtel;FBMF/Facebook;Facebook/lge;FBDV/SM-S918B;FBSV/13;FBCA]"
 	ua = str(rc([ua_d,ua_s]))
 	if ua_s in ugent:pass
